@@ -2,6 +2,8 @@
 
 int main()
 {
-    printf("Hello World!");
+    int n = 0;
+    scanf("%d", &n);
+    printf("Hello World!\nn = %d", n);
     return 0;
 }
